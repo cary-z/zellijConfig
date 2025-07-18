@@ -12,6 +12,9 @@ keybinds clear-defaults=true {
         bind "Ctrl Alt l" { MoveFocus "right"; }
         bind "Ctrl Alt k" { MoveFocus "up"; }
         bind "Ctrl Alt j" { MoveFocus "down"; }
+        bind "Ctrl Alt v" { SwitchToMode "pane"; NewPane "right"; SwitchToMode "normal"; }
+        bind "Ctrl Alt g" { SwitchToMode "pane"; NewPane "down"; SwitchToMode "normal"; }
+        bind "Ctrl Alt c" { SwitchToMode "pane"; CloseFocus; SwitchToMode "normal"; }
 
         // Tab 切换
         bind "Ctrl Shift h" { GoToPreviousTab; }
