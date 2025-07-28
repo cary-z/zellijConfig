@@ -98,6 +98,8 @@ keybinds clear-defaults=true {
         bind "up" { MovePane "up"; }
         bind "right" { MovePane "right"; }
         bind "h" { MovePane "left"; }
+        bind "Ctrl h" { MoveTab "left"; }
+        bind "Ctrl l" { MoveTab "right"; }
         bind "Ctrl m" { SwitchToMode "normal"; }
         bind "j" { MovePane "down"; }
         bind "k" { MovePane "up"; }
